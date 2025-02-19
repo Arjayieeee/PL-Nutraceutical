@@ -20,6 +20,7 @@ html:focus-within{
 }
 body{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 @layer components{
@@ -544,9 +545,6 @@ body{
         }
         .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after  {
             display: none;
-        }
-        body{
-            overflow-x:hidden;
         }
 
         .contact__wrapper{
