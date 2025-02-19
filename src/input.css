@@ -42,7 +42,7 @@ body{
         @apply shadow-none overflow-y-scroll lg:overflow-hidden
     }
     .header__nav.open{
-        right:0;
+        right:1rem;
     }
     .header__nav ul li{
         border-bottom: 1px solid #54595F;
@@ -490,7 +490,7 @@ body{
   
     .contact-right .contact-inputs{
     
-       @apply w-[25rem] h-[3rem] border-none outline-none pl-[2rem]  bg-white text-justify;
+       @apply  border-none outline-none pl-[2rem]  bg-white text-justify;
        border-radius:1rem;
        
     } 
@@ -504,7 +504,7 @@ body{
     }
     .contact-right .textarea{
         height:10rem;
-        width:25rem;
+        width:27rem;
         @apply  border-none outline-none pl-[2rem] pt-[1rem] rounded-[1rem] 
     }
     .contact-right .textarea:focus{
@@ -539,7 +539,7 @@ body{
    
   
 
-    @media (min-width: 350px) {
+    @media (min-width: 400px) {
         .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
             display:none;
         }
@@ -551,10 +551,7 @@ body{
             height:39rem;
         }
         .contact-right .contact-inputs{
-            @apply w-[25rem] h-[2rem] 
-        }
-        .contact-right{
-            @apply ml-[1.5rem] pt-[2rem]
+            @apply w-[1rem] h-[2rem] 
         }
         .contact-left{
             @apply ml-[1.5rem]
@@ -596,7 +593,7 @@ body{
     }
   
     .contact-right .contact-inputs{
-        @apply w-[25rem] h-[3rem]  outline-2 
+        @apply w-[17rem] lg:w-[27rem] h-[3rem]  outline-2 
     }
     .contact-right{
         @apply ml-[1.5rem] 
@@ -604,6 +601,9 @@ body{
     .contact-left{
         @apply ml-[1.5rem]
     }
+     .contact-right .textarea{
+        @apply w-[20rem]
+     }
 
 .container{
     animation: transitionIn 1s ease;

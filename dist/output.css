@@ -587,7 +587,7 @@ video {
 }
 
 .header__nav.open{
-  right:0;
+  right:1rem;
 }
 
 .header__nav ul li{
@@ -1145,8 +1145,6 @@ video {
 }
 
 .contact-right .contact-inputs {
-  height: 3rem;
-  width: 25rem;
   border-style: none;
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1169,7 +1167,7 @@ video {
 
 .contact-right .textarea{
   height:10rem;
-  width:25rem;
+  width:27rem;
   border-radius: 1rem;
   border-style: none;
   padding-left: 2rem;
@@ -1244,7 +1242,7 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-@media (min-width: 350px) {
+@media (min-width: 400px) {
   .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
     display:none;
   }
@@ -1259,12 +1257,7 @@ video {
 
   .contact-right .contact-inputs {
     height: 2rem;
-    width: 25rem;
-  }
-
-  .contact-right {
-    margin-left: 1.5rem;
-    padding-top: 2rem;
+    width: 1rem;
   }
 
   .contact-left {
@@ -1325,8 +1318,14 @@ video {
 
 .contact-right .contact-inputs {
   height: 3rem;
-  width: 25rem;
+  width: 17rem;
   outline-width: 2px;
+}
+
+@media (min-width: 1024px) {
+  .contact-right .contact-inputs {
+    width: 27rem;
+  }
 }
 
 .contact-right {
@@ -1335,6 +1334,10 @@ video {
 
 .contact-left {
   margin-left: 1.5rem;
+}
+
+.contact-right .textarea {
+  width: 20rem;
 }
 
 .container{
@@ -1409,10 +1412,6 @@ video {
   margin-top: 4rem;
 }
 
-.mr-\[\.5remgit\] {
-  margin-right: .5remgit;
-}
-
 .flex {
   display: flex;
 }
@@ -1459,10 +1458,6 @@ video {
 
 .max-w-\[25rem\] {
   max-width: 25rem;
-}
-
-.max-w-\[26\.5rem\] {
-  max-width: 26.5rem;
 }
 
 .max-w-\[26rem\] {
@@ -1648,6 +1643,10 @@ video {
 
 .pt-\[3rem\] {
   padding-top: 3rem;
+}
+
+.pb-\[\] {
+  padding-bottom: ;
 }
 
 .text-center {
