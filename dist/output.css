@@ -1470,6 +1470,10 @@ video {
   max-width: 25rem;
 }
 
+.max-w-\[23rem\] {
+  max-width: 23rem;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -1861,6 +1865,10 @@ body{
 
   .lg\:w-auto {
     width: auto;
+  }
+
+  .lg\:w-\[50rem\] {
+    width: 50rem;
   }
 
   .lg\:max-w-\[38rem\] {
