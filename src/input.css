@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    scroll-behavior: smooth;
+}
+
 .container{
     width: 100%;
     margin: 0 auto;
@@ -9,6 +13,12 @@
 }
 html{
     overflow-x:hidden;
+    scroll-behavior: smooth;
+}
+html:focus-within{
+    scroll-behavior: smooth !important;
+}
+body{
     scroll-behavior: smooth;
 }
 
@@ -529,7 +539,7 @@ html{
    
   
 
-    @media (min-width: 400px) {
+    @media (min-width: 350px) {
         .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
             display:none;
         }
@@ -595,5 +605,18 @@ html{
         @apply ml-[1.5rem]
     }
 
-    
+.container{
+    animation: transitionIn 1s ease;
+}
+
+    @keyframes transitionIn{
+        from{
+            opacity:0;
+            transform: rotateX(-10deg);
+        }
+        to{
+            opacity:1;
+            transform:rotateX(0);
+        }
+    }
 }
