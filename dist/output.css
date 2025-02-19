@@ -1475,6 +1475,18 @@ video {
   max-width: 25rem;
 }
 
+.max-w-\[26rem\] {
+  max-width: 26rem;
+}
+
+.max-w-\[2rem\] {
+  max-width: 2rem;
+}
+
+.max-w-\[23rem\] {
+  max-width: 23rem;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
