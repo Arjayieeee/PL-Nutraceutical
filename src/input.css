@@ -545,6 +545,9 @@ body{
         .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after  {
             display: none;
         }
+        body{
+            overflow-x:hidden;
+        }
 
         .contact__wrapper{
             height:39rem;

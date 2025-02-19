@@ -1256,6 +1256,10 @@ video {
     display: none;
   }
 
+  body{
+    overflow-x:hidden;
+  }
+
   .contact__wrapper{
     height:39rem;
   }
@@ -1466,12 +1470,12 @@ video {
   width: 8rem;
 }
 
-.max-w-\[25rem\] {
-  max-width: 25rem;
-}
-
 .max-w-\[23rem\] {
   max-width: 23rem;
+}
+
+.max-w-\[25rem\] {
+  max-width: 25rem;
 }
 
 .cursor-pointer {
@@ -1865,10 +1869,6 @@ body{
 
   .lg\:w-auto {
     width: auto;
-  }
-
-  .lg\:w-\[50rem\] {
-    width: 50rem;
   }
 
   .lg\:max-w-\[38rem\] {
