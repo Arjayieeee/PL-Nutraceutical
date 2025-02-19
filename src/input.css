@@ -42,7 +42,7 @@ body{
         @apply shadow-none overflow-y-scroll lg:overflow-hidden
     }
     .header__nav.open{
-        right:3rem;
+        right:0;
     }
     .header__nav ul li{
         border-bottom: 1px solid #54595F;
@@ -565,7 +565,7 @@ body{
            position: relative;
         }
         .contact-button button{
-          @apply py-[.2rem]  text-[1rem] absolute  mt-[1rem]
+          @apply py-[.2rem]  text-[1rem] absolute  mb-[2rem]
          }
     }
 
