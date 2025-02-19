@@ -42,7 +42,7 @@ body{
         @apply shadow-none overflow-y-scroll lg:overflow-hidden
     }
     .header__nav.open{
-        right:1rem;
+        right:3rem;
     }
     .header__nav ul li{
         border-bottom: 1px solid #54595F;
