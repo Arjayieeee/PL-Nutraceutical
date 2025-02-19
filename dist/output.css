@@ -1475,6 +1475,14 @@ video {
   width: 22rem;
 }
 
+.w-\[2rem\] {
+  width: 2rem;
+}
+
+.w-\[25rem\] {
+  width: 25rem;
+}
+
 .max-w-\[25rem\] {
   max-width: 25rem;
 }
@@ -1878,6 +1886,14 @@ body{
 
   .lg\:w-auto {
     width: auto;
+  }
+
+  .lg\:w-\[\] {
+    width: ;
+  }
+
+  .lg\:w-\[50rem\] {
+    width: 50rem;
   }
 
   .lg\:max-w-\[38rem\] {
