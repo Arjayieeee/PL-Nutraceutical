@@ -1167,13 +1167,18 @@ video {
 
 .contact-right .textarea{
   height:10rem;
-  width:27rem;
   border-radius: 1rem;
   border-style: none;
   padding-left: 2rem;
   padding-top: 1rem;
   outline: 2px solid transparent;
   outline-offset: 2px
+}
+
+@media (min-width: 1024px) {
+  .contact-right .textarea {
+    width: 27rem;
+  }
 }
 
 .contact-right .textarea:focus{
@@ -1318,7 +1323,7 @@ video {
 
 .contact-right .contact-inputs {
   height: 3rem;
-  width: 17rem;
+  width: 21.5rem;
   outline-width: 2px;
 }
 
@@ -1337,7 +1342,13 @@ video {
 }
 
 .contact-right .textarea {
-  width: 20rem;
+  width: 21.5rem;
+}
+
+@media (min-width: 1024px) {
+  .contact-right .textarea {
+    width: 27rem;
+  }
 }
 
 .container{
@@ -1454,6 +1465,14 @@ video {
 
 .w-\[8rem\] {
   width: 8rem;
+}
+
+.w-\[26rem\] {
+  width: 26rem;
+}
+
+.w-\[22rem\] {
+  width: 22rem;
 }
 
 .max-w-\[25rem\] {
@@ -1645,8 +1664,8 @@ video {
   padding-top: 3rem;
 }
 
-.pb-\[\] {
-  padding-bottom: ;
+.pb-\[rem\] {
+  padding-bottom: rem;
 }
 
 .text-center {

@@ -504,8 +504,7 @@ body{
     }
     .contact-right .textarea{
         height:10rem;
-        width:27rem;
-        @apply  border-none outline-none pl-[2rem] pt-[1rem] rounded-[1rem] 
+        @apply  border-none outline-none pl-[2rem] pt-[1rem] rounded-[1rem] lg:w-[27rem]
     }
     .contact-right .textarea:focus{
         border: 2px solid black;
@@ -593,7 +592,7 @@ body{
     }
   
     .contact-right .contact-inputs{
-        @apply w-[17rem] lg:w-[27rem] h-[3rem]  outline-2 
+        @apply w-[21.5rem] lg:w-[27rem] h-[3rem]  outline-2 
     }
     .contact-right{
         @apply ml-[1.5rem] 
@@ -602,7 +601,7 @@ body{
         @apply ml-[1.5rem]
     }
      .contact-right .textarea{
-        @apply w-[20rem]
+        @apply w-[21.5rem] lg:w-[27rem]
      }
 
 .container{
