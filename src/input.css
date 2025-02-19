@@ -565,7 +565,7 @@ body{
            position: relative;
         }
         .contact-button button{
-          @apply py-[.2rem]  text-[1rem] absolute left-[9rem] mt-[1rem]
+          @apply py-[.2rem]  text-[1rem] absolute  mt-[1rem]
          }
     }
 
